@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Anton Bersh",
+    "img": "https://cs6.pikabu.ru/post_img/big/2017/06/16/8/1497618101132251593.jpg",
+    "position": "UI Designer",
+    "timestemp": {
+      "mon": {
+        "date": "2021-04-19T09:00:00.000Z",
+        "task": "Monday Wake-Up Hour"
+      },
+      "tue": {
+        "date": "2021-04-20T09:00:00.000Z",
+        "task": "Webinar: Visual Design"
+      },
+      "wed": {
+        "date": "2021-04-21T09:00:00.000Z",
+        "task": "Updated Content"
+      },
+      "thu": {
+        "date": "2021-04-22T09:00:00.000Z",
+        "task": "UI Components and Guidlines"
+      },
+      "fri": {
+        "date": "2021-04-23T09:00:00.000Z",
+        "task": ""
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ann Harison",
+    "img": "https://kinoafisha.ua/upload/2018/02/news/64075/fotos/1519028090cerno-bele-portret-znamenitostei-ot-mirovogo-fotografa.jpg",
+    "position": "HR Manager",
+    "timestemp": {
+      "mon": {
+        "date": "2021-04-19T09:00:00.000Z",
+        "task": "Monday Wake-Up Hour"
+      },
+      "tue": {
+        "date": "2021-04-20T09:00:00.000Z",
+        "task": "Meeting with a client"
+      },
+      "wed": {
+        "date": "2021-04-21T09:00:00.000Z",
+        "task": "Brand Strategy progress"
+      },
+      "thu": {
+        "date": "Meeting with a client",
+        "task": ""
+      },
+      "fri": {
+        "date": "2021-04-23T09:00:00.000Z",
+        "task": "Planning week tasks"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "name": "Ali Harvey",
+    "img": "https://lh3.googleusercontent.com/proxy/ynvtN5aJQxvfl8H-K0qluERoRrAAr_Q8uZ2k5Mxnu-YvK0d7Nhc2S5q73-r_ji-LqoPsJZzr2RDFNOH0EFb9GbybHO40s2Dz5IfgwXgEgBKmJokr6Kqw3m7fqQ2kHAgVHn0",
+    "position": "Backend Developer",
+    "timestemp": {
+      "mon": {
+        "date": "2021-04-19T09:00:00.000Z",
+        "task": "Monday Wake-Up Hour"
+      },
+      "tue": {
+        "date": "2021-04-20T09:00:00.000Z",
+        "task": "Meeting with developers"
+      },
+      "wed": {
+        "date": "2021-04-21T09:00:00.000Z",
+        "task": "Mentoring Junior Backend Dev"
+      },
+      "thu": {
+        "date": "2021-04-22T09:00:00.000Z",
+        "task": ""
+      },
+      "fri": {
+        "date": "2021-04-23T09:00:00.000Z",
+        "task": "AWS Certificate"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "name": "Kate Brown",
+    "img": "https://kinoafisha.ua/upload/2018/02/news/64075/fotos/1519028101cerno-bele-portret-znamenitostei-ot-mirovogo-fotografa.jpg",
+    "position": "CEO",
+    "timestemp": {
+      "mon": {
+        "date": "2021-04-19T09:00:00.000Z",
+        "task": "Monday Wake-Up Hour"
+      },
+      "tue": {
+        "date": "2021-04-20T09:00:00.000Z",
+        "task": ""
+      },
+      "wed": {
+        "date": "2021-04-21T09:00:00.000Z",
+        "task": ""
+      },
+      "thu": {
+        "date": "2021-04-22T09:00:00.000Z",
+        "task": "Financial Update"
+      },
+      "fri": {
+        "date": "2021-04-23T09:00:00.000Z",
+        "task": "Marketing Meet- and-Greet "
+      }
+    }
+  },
+  {
+    "id": 5,
+    "name": "Steve Quinn",
+    "img": "https://i.pinimg.com/736x/b2/76/09/b2760919e22324baa835919e2c8567c9.jpg",
+    "position": "UX Designer",
+    "timestemp": {
+      "mon": {
+        "date": "2021-04-19T09:00:00.000Z",
+        "task": "Meeting with a client"
+      },
+      "tue": {
+        "date": "2021-04-20T09:00:00.000Z",
+        "task": "Design Review: Acme Marketing "
+      },
+      "wed": {
+        "date": "2021-04-21T09:00:00.000Z",
+        "task": "Webinar: UX Research"
+      },
+      "thu": {
+        "date": "2021-04-22T09:00:00.000Z",
+        "task": "Interview"
+      },
+      "fri": {
+        "date": "2021-04-23T09:00:00.000Z",
+        "task": "Sketching new screens "
+      }
+    }
+  }
+]

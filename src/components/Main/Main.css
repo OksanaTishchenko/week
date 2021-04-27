@@ -1,0 +1,96 @@
+.main-container {
+  width: 100%;
+  height: 900px;
+  background-color: #ffff;
+}
+.header-main {
+  display: flex;
+  align-items: center;
+  width: auto;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.title {
+  margin: 0;
+  align-items: center;
+}
+.duration, .current-date {
+  display: flex;
+  align-items: center;
+  background-color: #F7F6F4;
+  border-radius: 20px;
+  height: 35px;
+}
+.button-duration {
+  width: 70px;
+  padding: 5px ;
+  outline: none;
+  color: #65676D;
+  border: none;
+  border-radius: 15px;
+  background-color: #F7F6F4;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.button-duration:hover {
+  background-color: gray;
+  color: #ffff;
+}
+
+.date {
+  display: flex;
+  max-height: 40px;
+}
+.current-date {
+  padding: 0 20px;
+  margin-left: 22px;
+}
+.month {
+  margin-left: 17px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #65676D;
+}
+.img-date {
+  width: 20px;
+  height: 20px;
+}
+table {
+  width: 100%;
+  border: 1px solid black;
+  padding: 10px 20px;
+  background-color: #ffff;
+  border-collapse: collapse;
+}
+tr, td, th {
+  border: 0.5px solid #E5E5E5;
+}
+th:nth-child(1), td:nth-child(1) {
+  width: 20%;
+}
+th, td {
+  width: 10%;
+}
+th {
+  padding: 10px;
+}
+.users {
+  height: 160px;
+  
+}
+.users-data {
+  padding: 25px 25px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+}
+.members-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.task {
+  padding: 10px;
+}
