@@ -26,7 +26,7 @@ const Main = () => {
     const date = new Date(timestamp);
     const hours = date.getHours(timestamp);
     const minutes = date.getMinutes(timestamp);
-    return `${hours}:${minutes}`;
+    return `${hours}:${minutes}` + '0';
   }
 
   const getHours = (timestamp) => {
