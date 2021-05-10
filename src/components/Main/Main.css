@@ -66,14 +66,33 @@ table {
 tr, td, th {
   border: 0.5px solid #E5E5E5;
 }
+
 th:nth-child(1), td:nth-child(1) {
   width: 20%;
 }
-th, td {
-  width: 10%;
-}
 th {
   padding: 10px;
+  width: 10%;
+}
+.members-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 18px;
+}
+.members-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1C1C1C;
+  
+}
+.days-of-week {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+.number-of-week {
+  color: #65676D;
 }
 .users {
   height: 160px;
@@ -81,16 +100,78 @@ th {
 }
 .users-data {
   padding: 25px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+}
+.user-name-block {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-right: 90px;
+}
+.user-name {
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
-
 }
+.user-position {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
 .members-img {
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
 }
 .task {
-  padding: 10px;
+  font-size: 12px;
+  line-height: 16px;
+  font-style: normal;
+  font-weight: 600;
+  
+}
+.green {
+  background: rgba(16, 185, 129, 0.1);
+  border-left: 3px solid #10B981;
+  border-radius: 4px;
+  color: #047857;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.orange {
+  background: rgba(245, 158, 11, 0.1);
+  border-left: 3px solid #F59E0B;
+  border-radius: 4px;
+  color: #B45309;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.blue {
+  background: rgba(14, 165, 233, 0.1);
+  border-left: 3px solid #0EA5E9;
+  border-radius: 4px;
+  color: #0369A1;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.purple {
+  background: rgba(139, 92, 246, 0.1);
+  border-left: 3px solid #8B5CF6;
+  border-radius: 4px;
+  color: #6D28D9;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.red {
+  background: #FFE4E6;
+  border-left: 3px solid #F43F5E;
+  border-radius: 4px;
+  color: #BE123C;
+  padding: 5px;
+  margin-bottom: 5px;
 }

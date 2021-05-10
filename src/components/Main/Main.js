@@ -1,9 +1,39 @@
 import '../Main/Main.css';
 import users from '../../data/users.json';
 import calendar from '../../img/profile/calendar.svg';
+import arrow from '../../img/profile/arrow.svg';
+import useradd from '../../img/profile/useradd.svg';
 
 const Main = () => {
 
+  const daysOfWeek =
+    [
+      { name: 'Mon', number: 19 },
+      { name: 'Tue', number: 20 },
+      { name: 'Wed', number: 21 },
+      { name: 'Thu', number: 22 },
+      { name: 'Fri', number: 23 },
+      { name: 'Sat', number: 24 },
+      { name: 'Sun', number: 25 }
+    ];
+
+  const getDayOfWeek = (timestamp) => {
+    const date = new Date(timestamp);
+    const day = date.getDate();
+    return day;
+  }
+  const getTime = (timestamp) => {
+    const date = new Date(timestamp);
+    const hours = date.getHours(timestamp);
+    const minutes = date.getMinutes(timestamp);
+    return `${hours}:${minutes}`;
+  }
+
+  const getHours = (timestamp) => {
+    const date = new Date(timestamp);
+    const hours = date.getHours(timestamp);
+    return hours;
+  }
 
   return (
     <>
@@ -26,31 +56,23 @@ const Main = () => {
         <table>
           <thead>
             <tr>
-              <th>Members</th>
-              <th>Mon</th>
-              <th>Tue</th>
-              <th>Wed</th>
-              <th>Thu</th>
-              <th>Fri</th>
-              <th>Sat</th>
-              <th>Sun</th>
+              <th><div className="members-list"><div className="members-title">Members</div><img src={useradd} /></div></th>
+              {daysOfWeek.map(item => <th><div className="days-of-week">{item.name}<br /><div className="number-of-week">{item.number}</div></div></th>)}
             </tr>
           </thead>
-          {users.map(item => (
-            <tbody>
-              <tr className="users">
-                <td className="users-data"><img src={item.img} className="members-img" />{item.name}<br />{item.position}</td>
-                <td><div className="task">{item.timestemp.mon.task}</div></td>
-                <td><div className="task">{item.timestemp.tue.task}</div></td>
-                <td><div className="task">{item.timestemp.wed.task}</div></td>
-                <td><div className="task">{item.timestemp.thu.task}</div></td>
-                <td><div className="task">{item.timestemp.fri.task}</div></td>
-                <td></td>
-                <td></td>
+          <tbody>
+            {users.map(item => (
+              <tr className="users" key={item.id}>
+                <td><div className="users-data"><img src={item.img} className="members-img" /><div className="user-name-block"><div className="user-name">{item.name}</div><div className="user-position">{item.position}</div></div><img src={arrow} /></div></td>
+                {daysOfWeek.map(({ number }) => {
+                  const tasksForThisDay = item.tasks.filter(({ timestamp }) =>
+                    number === getDayOfWeek(timestamp)
+                  ).sort((a, b) => getHours(a.timestamp) - getHours(b.timestamp));
+                  return <td className='task'>{tasksForThisDay.map(({ timestamp, name, color }) => <div className={color}>{getTime(timestamp)}<br />{name}</div>)}</td>
+                })}
               </tr>
-            </tbody>
-          ))}
-
+            ))}
+          </tbody>
         </table>
       </main>
     </>

@@ -4,139 +4,254 @@
     "name": "Anton Bersh",
     "img": "https://cs6.pikabu.ru/post_img/big/2017/06/16/8/1497618101132251593.jpg",
     "position": "UI Designer",
-    "timestemp": {
-      "mon": {
-        "date": "2021-04-19T09:00:00.000Z",
-        "task": "Monday Wake-Up Hour"
+    "tasks": [
+      {
+        "timestamp": "2021-04-19T09:00:00.000Z",
+        "name": "Monday Wake-Up Hour",
+        "color": "blue"
       },
-      "tue": {
-        "date": "2021-04-20T09:00:00.000Z",
-        "task": "Webinar: Visual Design"
+      {
+        "timestamp": "2021-04-19T11:00:00.000Z",
+        "name": "Onboarding Presentation",
+        "color": "purple"
       },
-      "wed": {
-        "date": "2021-04-21T09:00:00.000Z",
-        "task": "Updated Content"
+      {
+        "timestamp": "2021-04-20T09:00:00.000Z",
+        "name": "Webinar: Visual Design",
+        "color": "green"
       },
-      "thu": {
-        "date": "2021-04-22T09:00:00.000Z",
-        "task": "UI Components and Guidlines"
+      {
+        "timestamp": "2021-04-20T11:00:00.000Z",
+        "name": "Meeting with Stave",
+        "color": "orange"
       },
-      "fri": {
-        "date": "2021-04-23T09:00:00.000Z",
-        "task": ""
+      {
+        "timestamp": "2021-04-21T10:00:00.000Z",
+        "name": "Updated Content",
+        "color": "green"
+      },
+      {
+        "timestamp": "2021-04-22T10:00:00.000Z",
+        "name": "UI Components and Guidlines",
+        "color": "orange"
+      },
+      {
+        "timestamp": "2021-04-22T16:00:00.000Z",
+        "name": "Meeting with junior designer",
+        "color": "green"
+      },
+      {
+        "timestamp": "2021-04-23T18:00:00.000Z",
+        "name": "Team Building",
+        "color": "red"
       }
-    }
+    ]
   },
   {
     "id": 2,
     "name": "Ann Harison",
     "img": "https://kinoafisha.ua/upload/2018/02/news/64075/fotos/1519028090cerno-bele-portret-znamenitostei-ot-mirovogo-fotografa.jpg",
     "position": "HR Manager",
-    "timestemp": {
-      "mon": {
-        "date": "2021-04-19T09:00:00.000Z",
-        "task": "Monday Wake-Up Hour"
+    "tasks": [
+      {
+        "timestamp": "2021-04-19T09:00:00.000Z",
+        "name": "Monday Wake-Up Hour",
+        "color": "blue"
       },
-      "tue": {
-        "date": "2021-04-20T09:00:00.000Z",
-        "task": "Meeting with a client"
+      {
+        "timestamp": "2021-04-19T11:00:00.000Z",
+        "name": "New Employee Welcome Lunch!",
+        "color": "purple"
       },
-      "wed": {
-        "date": "2021-04-21T09:00:00.000Z",
-        "task": "Brand Strategy progress"
+      {
+        "timestamp": "2021-04-20T09:00:00.000Z",
+        "name": "Meeting with a client",
+        "color": "blue"
       },
-      "thu": {
-        "date": "Meeting with a client",
-        "task": ""
+      {
+        "timestamp": "2021-04-20T11:00:00.000Z",
+        "name": "Onboarding for new Employee",
+        "color": "purple"
       },
-      "fri": {
-        "date": "2021-04-23T09:00:00.000Z",
-        "task": "Planning week tasks"
+      {
+        "timestamp": "2021-04-21T11:00:00.000Z",
+        "name": "Brand Strategy progress",
+        "color": "purple"
+      },
+      {
+        "timestamp": "2021-04-22T10:00:00.000Z",
+        "name": "Meeting with a client",
+        "color": "orange"
+      },
+      {
+        "timestamp": "2021-04-22T14:00:00.000Z",
+        "name": "Strategy Plan",
+        "color": "blue"
+      },
+      {
+        "timestamp": "2021-04-23T13:00:00.000Z",
+        "name": "Planning week tasks",
+        "color": "blue"
+      },
+      {
+        "timestamp": "2021-04-23T18:00:00.000Z",
+        "name": "Team Building",
+        "color": "red"
       }
-    }
+    ]
   },
   {
     "id": 3,
     "name": "Ali Harvey",
-    "img": "https://lh3.googleusercontent.com/proxy/ynvtN5aJQxvfl8H-K0qluERoRrAAr_Q8uZ2k5Mxnu-YvK0d7Nhc2S5q73-r_ji-LqoPsJZzr2RDFNOH0EFb9GbybHO40s2Dz5IfgwXgEgBKmJokr6Kqw3m7fqQ2kHAgVHn0",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVpeuczgtQMcn28YbB6oll8e8p_j-tT4xYlA&usqp=CAU",
     "position": "Backend Developer",
-    "timestemp": {
-      "mon": {
-        "date": "2021-04-19T09:00:00.000Z",
-        "task": "Monday Wake-Up Hour"
+    "tasks": [
+      {
+        "timestamp": "2021-04-19T09:00:00.000Z",
+        "name": "Monday Wake-Up Hour",
+        "color": "blue"
       },
-      "tue": {
-        "date": "2021-04-20T09:00:00.000Z",
-        "task": "Meeting with developers"
+      {
+        "timestamp": "2021-04-19T12:00:00.000Z",
+        "name": "Code Review",
+        "color": "orange"
       },
-      "wed": {
-        "date": "2021-04-21T09:00:00.000Z",
-        "task": "Mentoring Junior Backend Dev"
+      {
+        "timestamp": "2021-04-20T09:00:00.000Z",
+        "name": "Meeting with Developers",
+        "color": "blue"
       },
-      "thu": {
-        "date": "2021-04-22T09:00:00.000Z",
-        "task": ""
+      {
+        "timestamp": "2021-04-20T14:00:00.000Z",
+        "name": "Coding",
+        "color": "orange"
       },
-      "fri": {
-        "date": "2021-04-23T09:00:00.000Z",
-        "task": "AWS Certificate"
+      {
+        "timestamp": "2021-04-21T09:00:00.000Z",
+        "name": "Mentoring Junior Beckend Dev",
+        "color": "green"
+      },
+      {
+        "timestamp": "2021-04-21T12:00:00.000Z",
+        "name": "Coding",
+        "color": "orange"
+      },
+      {
+        "timestamp": "2021-04-22T14:00:00.000Z",
+        "name": "AWS Certificate",
+        "color": "green"
+      },
+      {
+        "timestamp": "2021-04-23T10:00:00.000Z",
+        "name": "AWS Certificate",
+        "color": "green"
+      },
+      {
+        "timestamp": "2021-04-23T18:00:00.000Z",
+        "name": "Team Building",
+        "color": "red"
       }
-    }
+    ]
   },
   {
     "id": 4,
     "name": "Kate Brown",
     "img": "https://kinoafisha.ua/upload/2018/02/news/64075/fotos/1519028101cerno-bele-portret-znamenitostei-ot-mirovogo-fotografa.jpg",
     "position": "CEO",
-    "timestemp": {
-      "mon": {
-        "date": "2021-04-19T09:00:00.000Z",
-        "task": "Monday Wake-Up Hour"
+    "tasks": [
+      {
+        "timestamp": "2021-04-19T09:00:00.000Z",
+        "name": "Monday Wake-Up Hour",
+        "color": "blue"
       },
-      "tue": {
-        "date": "2021-04-20T09:00:00.000Z",
-        "task": ""
+      {
+        "timestamp": "2021-04-19T10:00:00.000Z",
+        "name": "Financial Update",
+        "color": "orange"
       },
-      "wed": {
-        "date": "2021-04-21T09:00:00.000Z",
-        "task": ""
+      {
+        "timestamp": "2021-04-20T12:00:00.000Z",
+        "name": "Marketing Meet-and-Greet",
+        "color": "green"
       },
-      "thu": {
-        "date": "2021-04-22T09:00:00.000Z",
-        "task": "Financial Update"
+      {
+        "timestamp": "2021-04-22T09:00:00.000Z",
+        "name": "Financial Update",
+        "color": "orange"
       },
-      "fri": {
-        "date": "2021-04-23T09:00:00.000Z",
-        "task": "Marketing Meet- and-Greet "
+      {
+        "timestamp": "2021-04-23T12:00:00.000Z",
+        "name": "Marketing Meet-and-Greet",
+        "color": "green"
+      },
+      {
+        "timestamp": "2021-04-23T18:00:00.000Z",
+        "name": "Team Building",
+        "color": "red"
       }
-    }
+    ]
   },
   {
     "id": 5,
     "name": "Steve Quinn",
     "img": "https://i.pinimg.com/736x/b2/76/09/b2760919e22324baa835919e2c8567c9.jpg",
     "position": "UX Designer",
-    "timestemp": {
-      "mon": {
-        "date": "2021-04-19T09:00:00.000Z",
-        "task": "Meeting with a client"
+    "tasks": [
+      {
+        "timestamp": "2021-04-19T10:00:00.000Z",
+        "name": "Meeting with a client",
+        "color": "orange"
       },
-      "tue": {
-        "date": "2021-04-20T09:00:00.000Z",
-        "task": "Design Review: Acme Marketing "
+      {
+        "timestamp": "2021-04-19T13:00:00.000Z",
+        "name": "Design Review",
+        "color": "blue"
       },
-      "wed": {
-        "date": "2021-04-21T09:00:00.000Z",
-        "task": "Webinar: UX Research"
+      {
+        "timestamp": "2021-04-20T09:00:00.000Z",
+        "name": "Design Review: Acme Marketing",
+        "color": "blue"
       },
-      "thu": {
-        "date": "2021-04-22T09:00:00.000Z",
-        "task": "Interview"
+      {
+        "timestamp": "2021-04-20T11:00:00.000Z",
+        "name": "Meeting with Anton",
+        "color": "orange"
       },
-      "fri": {
-        "date": "2021-04-23T09:00:00.000Z",
-        "task": "Sketching new screens "
+      {
+        "timestamp": "2021-04-20T16:00:00.000Z",
+        "name": "Design Team Happy Hour",
+        "color": "red"
+      },
+      {
+        "timestamp": "2021-04-21T10:00:00.000Z",
+        "name": "Webinar: UX Research",
+        "color": "green"
+      },
+      {
+        "timestamp": "2021-04-21T13:00:00.000Z",
+        "name": "Webinar: Lo-Fi Wireframes in Figma",
+        "color": "green"
+      },
+      {
+        "timestamp": "2021-04-22T012:00:00.000Z",
+        "name": "Interview",
+        "color": "orange"
+      },
+      {
+        "timestamp": "2021-04-22T16:00:00.000Z",
+        "name": "Interview Analysis",
+        "color": "green"
+      },
+      {
+        "timestamp": "2021-04-23T09:00:00.000Z",
+        "name": "Sketching new screens",
+        "color": "blue"
+      },
+      {
+        "timestamp": "2021-04-23T18:00:00.000Z",
+        "name": "Team Building",
+        "color": "red"
       }
-    }
+    ]
   }
 ]
